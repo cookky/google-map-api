@@ -72,6 +72,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback,
         }
         createLocationRequest()
 
+        val fab = findViewById<FloatingActionButton>(R.id.fab)
         fab.setOnClickListener {
             loadPlacePicker()
         }
